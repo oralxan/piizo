@@ -1,0 +1,15 @@
+{% extends 'lugis/base.html' %}
+{% block content %}
+<style>
+    
+</style>
+<section id="menu-detail">
+    <div class="container">
+        <h2>{{ item.name }}</h2>
+        <img src="{{ item.image.url }}" alt="{{ item.name }}">
+        <p>{{ item.description }}</p>
+        <p>${{ item.price }}</p>
+    </div>
+</section>
+
+{% endblock %}

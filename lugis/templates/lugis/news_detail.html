@@ -1,0 +1,44 @@
+{% extends 'lugis/base.html' %}
+{% block content %}
+<style>
+    .container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 00vh; /* Adjusts the minimum height of the container to vertically center the content */
+    }
+    .card {
+        background-color: #f8f9fa; /* Change this to match your theme */
+    }
+    .card img {
+        object-fit: cover;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
+<section id="new-detail">
+    <div class="container">
+        <div>
+            <h2 style="color: antiquewhite; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">{{ new.title }}</h2>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="{{ new.image.url }}" class="img-fluid rounded-start" alt="{{ new.title }}">
+                    </div>
+                    <div class="col-md-8" style="text-align: center;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">{{ new.title }}</h5>
+                            <h5 class="card-title" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">{{ new.content }}</h5>
+                            <h5 class="card-title" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">{{ new.created_at }}</h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

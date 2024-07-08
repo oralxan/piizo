@@ -1,0 +1,57 @@
+{% extends 'lugis/base.html' %}
+
+<style>
+    .news-items {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .news-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .news-item img-container {
+        width: 200px; /* Kenglikni o'zgartirdik */
+        height: 200px; /* Balandlikni o'zgartirdik */
+        overflow: hidden; /* Konteynerdan tashqariga chiqmaslik uchun */
+    }
+
+    .news-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Rasmning razmerlarini saqlash uchun */
+    }
+
+    .news-text {
+        flex: 1;
+        color: aliceblue;
+    }
+</style>
+
+{% block content %}
+<section id="news">
+    <div class="container">
+        <h2 style="color: aliceblue;">Latest News</h2>
+        <div class="news-items">
+            {% for news_item in news %}
+            <div class="news-item">
+                <a href="{% url 'news_detail' news_item.id %}">
+                    <div class="img-container">
+                        <img src="{{ news_item.image.url }}" alt="{{ news_item.title }}">
+                    </div>
+                </a>
+                <div class="news-text">
+                    <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <a href="{% url 'news_detail' news_item.id %}" style="color: aliceblue;">{{ news_item.title }}</a>
+                    </h3>
+                    <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #D2042D;">{{ news_item.content }}</h1>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
