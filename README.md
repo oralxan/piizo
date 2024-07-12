@@ -28,4 +28,4 @@ Run the prejoct
     python3 manage.py runserver
 
 
-    ![Typing PNG](icegif-543.gif)</h3> Thank you
+![Typing PNG](icegif-543.gif)</h3> Thank you
