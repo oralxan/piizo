@@ -5,7 +5,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=/+//+///+////+/////+//////+///////)](https://git.io/typing-svg)</h3>
 
-[![Typing PNG](oo.png)</h3>
+[![Typing PNG](oo.jpg)</h3>
 
 Create virtualenv
 
