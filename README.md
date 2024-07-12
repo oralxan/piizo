@@ -1,4 +1,4 @@
-:pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza:![Typing PNG](icegif-543.gif)</h3>
+:pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza:!
 <h1 align="center">Hi there, it is <a href="https://piizo.pythonanywhere.com/" target="_blank">WaWka</a>'s Pizzarestoran 
     
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
@@ -19,6 +19,7 @@ Enter the venv
     source venv/bin/activate
 
 Install required modules with requirements.txt
+![Typing PNG](icegif-543.gif)</h3> Thank you
 
     pip install -r requirements.txt
 
