@@ -2,6 +2,7 @@
 <h1 align="center">Hi there, it is <a href="https://piizo.pythonanywhere.com/" target="_blank">WaWka</a>'s Pizzarestoran 
     
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+![Typing PNG](icegif-543.gif)</h3>
 :pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza::pizza:
 
 
