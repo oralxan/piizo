@@ -19,10 +19,13 @@ Enter the venv
     source venv/bin/activate
 
 Install required modules with requirements.txt
-![Typing PNG](icegif-543.gif)</h3> Thank you
+
 
     pip install -r requirements.txt
 
 Run the prejoct
 
     python3 manage.py runserver
+
+
+    ![Typing PNG](icegif-543.gif)</h3> Thank you
